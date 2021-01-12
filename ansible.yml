@@ -9,7 +9,7 @@
      raw: docker rm -f c1
      ignore_errors: true
    - name: spinnup container
-     raw: docker run -dti --name c1 -p 80:80 meghanath/tomim1:1 /bin/bash
+     raw: docker run -dti --name c1 -p 80:80 meghanath315/tomim1:1 /bin/bash
 
  - hosts: qa
    tags: qa
